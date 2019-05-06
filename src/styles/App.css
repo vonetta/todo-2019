@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(45deg, blue, lightgray, red) no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 1%;
+  max-width: 40%;
+
+  margin: 2% auto;
+  background-color: #ccc;
+  box-shadow: 10px 10px;
+}
+
+@media (max-width: 1200px) {
+  .App {
+    max-width: 50%;
+  }
+}
+@media (max-width: 450px) {
+  .App {
+    max-width: 80%;
+  }
+}
+#button {
+  margin-top: 5%;
+}
