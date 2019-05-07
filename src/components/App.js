@@ -89,10 +89,11 @@ function App(props) {
           Total Items: {items}
         </Typography>
         <Typography variant="h5" component="h5">
-          Percentage of List Completed :
+          {/* Percentage of List Completed :
           {completedList.length > 0
             ? ((completedList.length - todoList.length) / 100) * 100
-            : 0}
+            : 0} */}
+          Total Items Completed: {completedList.length}
         </Typography>
 
         <form onSubmit={handleSubmit}>

@@ -1,7 +1,7 @@
 body {
-  background: linear-gradient(45deg, blue, lightgray, red) no-repeat;
+  background: linear-gradient(45deg, blue, lightgray, red);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -10,7 +10,6 @@ body {
   text-align: center;
   padding: 1%;
   max-width: 40%;
-
   margin: 2% auto;
   background-color: #ccc;
   box-shadow: 10px 10px;
